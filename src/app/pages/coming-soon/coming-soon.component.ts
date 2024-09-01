@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-coming-soon',
+  selector: 'adico-coming-soon',
   standalone: true,
   imports: [],
   templateUrl: './coming-soon.component.html',

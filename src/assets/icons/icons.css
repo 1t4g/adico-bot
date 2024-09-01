@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'adico-icons';
+  src:  url('adico-icons.eot?yqrsw5');
+  src:  url('adico-icons.eot?yqrsw5#iefix') format('embedded-opentype'),
+  url('adico-icons.ttf?yqrsw5') format('truetype'),
+  url('adico-icons.woff?yqrsw5') format('woff'),
+  url('adico-icons.svg?yqrsw5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'adico-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-5:before {
+  content: "\e903";
+}
+.icon-7:before {
+  content: "\e904";
+}
+.icon-1:before {
+  content: "\e923";
+}
+.icon-10:before {
+  content: "\e926";
+}
+.icon-9:before {
+  content: "\e900";
+}
+.icon-8:before {
+  content: "\e929";
+}
+.icon-11:before {
+  content: "\e901";
+}
+.icon-3:before {
+  content: "\e92f";
+}
+.icon-2:before {
+  content: "\e902";
+}
+.icon-4:before {
+  content: "\e93d";
+}
+.icon-6:before {
+  content: "\e945";
+}
+.icon-12:before {
+  content: "\e94a";
+}

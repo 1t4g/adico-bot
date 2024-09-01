@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-upgrade-speed',
-  standalone: true,
-  imports: [],
+  selector: 'adico-upgrade-speed',
   templateUrl: './upgrade-speed.component.html',
   styleUrl: './upgrade-speed.component.scss'
 })

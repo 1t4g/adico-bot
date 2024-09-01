@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-nft',
+  selector: 'adico-nft',
   standalone: true,
   imports: [],
   templateUrl: './nft.component.html',
