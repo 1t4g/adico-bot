@@ -1,0 +1,16 @@
+.nft-bg {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/assets/images/nft.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #937b6e;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-window {
+  width: 85%;
+}

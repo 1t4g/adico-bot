@@ -1,0 +1,24 @@
+<div class="referrals-bg">
+  <div class="header-container"></div>
+  <div class="content" *ngIf="!isOpenWindowReferrals">
+    <div class="title">Top Referals</div>
+    <div class="users-container" *ngIf="!isOpenWindowReferrals">
+      <div class="users" *ngFor="let user of referralsUser; let i = index">{{i + 1}}
+        . {{user.name}}</div>
+    </div>
+  </div>
+  <div class="content" style="text-align: center" *ngIf="isOpenWindowReferrals">
+    <adico-referrals-link></adico-referrals-link>
+  </div>
+  <div class="buttons-container">
+    <div class="buttons-container__btn-font" (click)="navigate('coming-soon')">
+      <div class="icon-3 ic"></div>
+    </div>
+    <div class="buttons-container__btn-font" (click)="navigate('')">
+      <div class="icon-4 ic"></div>
+    </div>
+    <div class="buttons-container__btn-font" (click)="openReferrals()">
+      <div class="icon-12 ic vh-4"></div>
+    </div>
+  </div>
+</div>

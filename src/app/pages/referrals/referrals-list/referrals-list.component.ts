@@ -2,18 +2,20 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'adico-referrals',
-  templateUrl: './referrals.component.html',
-  styleUrl: './referrals.component.scss'
+  selector: 'adico-referrals-list',
+  templateUrl: './referrals-list.component.html',
+  styleUrl: './referrals-list.component.scss'
 })
-export class ReferralsComponent {
+export class ReferralsListComponent {
 
   public isOpenWindowReferrals = false;
 
   public referralsUser = [{
+    id: 1,
     name: 'Eagle',
     url: 'https://google.com'
   }, {
+    id: 2,
     name: 'Главный дедус',
     url: 'https://vk.com'
   }]
@@ -23,10 +25,6 @@ export class ReferralsComponent {
 
   public openReferrals(): void {
     this.isOpenWindowReferrals = true
-  }
-
-  public test(): void {
-    debugger;
   }
 
   public navigate(url: string): void {

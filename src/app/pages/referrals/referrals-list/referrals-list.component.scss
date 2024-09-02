@@ -1,0 +1,47 @@
+.referrals-bg {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/assets/images/referrals/referrals.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #e4c9a8;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  padding: unset;
+  font-size: unset;
+  height: 23vw;
+}
+
+
+.content {
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 9.5vw;
+  display: flex;
+  align-items: end;
+  color: #b1ab9e;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+.users-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3vw;
+  width: 50%;
+}
+
+.users {
+  font-style: italic;
+  color: #b1ab9e;
+}
